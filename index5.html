@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up and sign in</title>
+</head>
+<body>
+    <form action="">
+        <label for="first name">first name
+            <input type="text" name="first name" placeholder="ayush" id="first name" required minlength="6">
+        </label>
+        <br>
+        <label for="Last name">Last name
+            <input type="email" name="last name" placeholder="raj" id="last name" required min="3" max="20">
+        </label>
+        <br>
+        <label for="email">enail
+            <input type="text" name="email" placeholder="ayushraj@gmail.com" id="email" required>
+        </label>
+        <br>
+        <label for="password">password
+            <input type="password" name="password" placeholder="######*****" id="password" required min="8">
+        </label>
+        <br>
+        <label for="confirm password">confirm password
+            <input type="password" name="confirm password" id="confirm password" placeholder="******" required >
+        </label>
+        <br>
+        <label for="age">age
+            <input type="number" name="age" id="age" placeholder="22" required min="0" max="150">
+            </label>
+            <br>
+            <label for=""> Gender
+                <input type="radio" id="male" name="Gender" value="Gender" checked>
+                <label for="male">male</label>
+                <input type="radio" id="female" name="Gender" value="female">
+                <label for="female">female</label>
+                <input type="radio" id="other" value="other" name="Gender">
+                <label for="other">other</label>
+            </label>
+            <br>
+            <label for="terms">terms
+                <input type="checkbox" id="terms" required> I agree to terms and conditions
+            </label>
+            <br>
+            <button type="submit"> Register </button>
+    </form>
+</body>
+</html>
